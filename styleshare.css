@@ -1,0 +1,54 @@
+@font-face
+{
+	font-family: Ubuntu-Regular;
+	src: url("font/Ubuntu-Regular.ttf");
+}
+
+@font-face
+{
+	font-family: Ubuntu-Bold;
+	src: url("font/Ubuntu-Bold.ttf");
+}
+
+@font-face
+{
+	font-family:Ubuntu-BoldItalic ;
+	src: url("font/Ubuntu-BoldItalic.ttf");
+}
+
+@font-face
+{
+	font-family: Ubuntu-Italic;
+	src: url("font/Ubuntu-Italic.ttf");
+}
+
+.join
+{
+	display: block;
+	background-color: #F2D4AC;
+	border: 10px solid;
+	border-color: #F9AE48;
+	padding: 100px;
+	font-family: Ubuntu-Bold;
+}
+
+#js
+{
+	font-family: Ubuntu-Bold;
+	font-size: 50px;
+	text-align: center;
+}
+
+#jsText
+{
+	font-family: Ubuntu-Regular;
+	font-size: 30px;
+	text-align: center;
+}
+
+#maill
+{
+	font-family: Ubuntu-Italic;
+	font-size: 40px;
+	text-align: center;
+}

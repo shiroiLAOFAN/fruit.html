@@ -1,0 +1,58 @@
+@font-face
+{
+	font-family:Ubuntu-Medium ;
+	src: url("font/Ubuntu-Medium.ttf");
+}
+
+@font-face
+{
+	font-family:Ubuntu-MediumItalic ;
+	src: url("font/Ubuntu-MediumItalic.ttf");
+}
+
+@font-face
+{
+	font-family: Ubuntu-Bold;
+	src: url("font/Ubuntu-Bold.ttf");
+}
+
+.lfs
+{
+	font-family:Ubuntu-Medium ;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.lli
+{
+	color: black;
+	margin-left: 100px;
+}
+
+.sText
+{
+	font-family:Ubuntu-Medium ;
+	font-size: 30px;
+}
+
+
+.fsBUT:link, .fsBUT:visited
+{
+	background-color: #FF5B5B;
+	color: white;
+	padding: 50px 100px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Ubuntu-Bold;
+	font-size: 50px;
+	margin: auto;
+	margin-left: 250px;
+}
+
+.fsBUT:hover, .fsBUT:active
+{
+	background-color:#000000;
+	cursor: pointer;
+}

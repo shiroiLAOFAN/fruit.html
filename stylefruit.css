@@ -1,0 +1,508 @@
+@font-face
+{
+	font-family: Ubuntu-Regular;
+	src: url("font/Ubuntu-Regular.ttf");
+}
+
+@font-face
+{
+	font-family: Ubuntu-Bold;
+	src: url("font/Ubuntu-Bold.ttf");
+}
+
+@font-face
+{
+	font-family:Ubuntu-BoldItalic ;
+	src: url("font/Ubuntu-BoldItalic.ttf");
+}
+
+@font-face
+{
+	font-family: Ubuntu-Italic;
+	src: url("font/Ubuntu-Italic.ttf");
+}
+
+@font-face
+{
+	font-family:Ubuntu-Light ;
+	src: url("font/Ubuntu-Light.ttf");
+}
+
+@font-face
+{
+	font-family: Ubuntu-LightItalic;
+	src: url("font/Ubuntu-LightItalic.ttf");
+}
+
+@font-face
+{
+	font-family:Ubuntu-Medium ;
+	src: url("font/Ubuntu-Medium.ttf");
+}
+
+@font-face
+{
+	font-family:Ubuntu-MediumItalic ;
+	src: url("font/Ubuntu-MediumItalic.ttf");
+}
+
+.top
+{
+	display: block;
+	background-image: url("fp/fruitt.gif");
+	background-size: 1200px;
+	background-position: center;
+	width: 100%;
+	height: 75%;
+}
+
+.headd
+{
+	font-family:  Ubuntu-Bold;
+	text-decoration: none;
+	margin-bottom: 0;
+	margin-top: 220px;
+	text-align: center;
+	font-size: 80px;
+}
+
+.headd:hover
+{
+	color: black;
+}
+
+#logo
+{
+	border-radius: 50%;
+	width: 100px;
+	position: relative;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+.grid-container 
+{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	background-color: #FFB5B6;
+	padding: 10px;
+}
+
+.grid-item
+{
+	text-decoration: none;
+	background-color: #FFB5B6;
+	border: 1px solid #FFB5B6;
+	padding: 20px;
+	font-size: 25px;
+	text-align: center;
+	font-family: Ubuntu-Bold;
+	color: black;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:focus, a:hover, a:active
+{
+	color: white;
+}
+
+
+#fruits
+{
+	width: 30%;
+	float: left;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+.intro
+{
+	display: block;
+	background-color:  #FFEDED;
+}
+
+.articleText
+{
+	text-align: left;
+	margin-left: 200px;
+	font-family: Ubuntu-Regular;
+	color: black;
+	font-size: 35px;
+}
+
+.articleTextt
+{
+	text-align: left;
+	margin-right: 100px;
+	font-family: Ubuntu-Light;
+	color: black;
+	font-size: 25px;
+}
+
+.articleTexttt
+{
+	text-align: center;
+	margin-right: 100px;
+	font-family: Ubuntu-Regular;
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.articleTexttt:hover
+{
+	color: white;
+}
+
+.searchBUT:link, .searchBUT:visited
+{
+	background-color: #FF6F6F;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Ubuntu-Bold;
+
+}
+
+.searchBUT:hover, .searchBUT:active
+{
+	background-color:#000000;
+	cursor: pointer;
+}
+
+.searchBUTT:link, .searchBUTT:visited
+{
+	background-color: #FF6F6F;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Ubuntu-Bold;
+}
+
+.searchBUTT:hover, .searchBUTT:active
+{
+	background-color:#000000;
+	cursor: pointer;
+}
+
+.cf
+{
+	font-family: Ubuntu-Bold;
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	word-spacing: 10px;
+	text-shadow: 2px 2px 5px #ffa500;
+}
+
+.common
+{
+	display: block;
+	background-color: #ffdab9;
+}
+
+
+.exlemon
+{
+	display: block;
+	background-color: #FFFEC4;
+	border: 10px solid;
+	border-color: #FFDC00 #FFE962 #FFE962 #FFDC00;
+	padding: 10px;
+}
+
+.rightFigure
+{
+	display: block;
+	width: 350px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 40px;
+}
+
+.leftFigure
+{
+	display: block;
+	width: 350px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+
+.rightHEAD
+{
+	position: relative;
+	font-family: Ubuntu-Regular;
+	color: black;
+	font-size: 40px;
+	margin-left: 130px;
+	text-decoration: none;
+}
+
+.leftHEAD
+{
+	position:static;
+	font-family: Ubuntu-Regular;
+	color: black;
+	font-size: 40px;
+	margin-left: 530px;
+	text-decoration: none;
+}
+
+.fruitText
+{
+	position: relative;
+	font-family: Ubuntu-Regular;
+	color: black;
+	font-size: 20px;
+}
+
+.fruitTextt
+{
+	position: static;
+	font-family: Ubuntu-Regular;
+	color: black;
+	font-size: 20px;
+}
+
+.li
+{
+	color: black;
+	margin-left: 100px;
+}
+
+.lii
+{
+	color: black;
+	margin-left: 500px;
+}
+
+.hr
+{
+	border-top: 5px solid black;
+	margin-left: 100px;
+	margin-right: 500px;
+}
+
+.hrr
+{
+	border-top: 5px solid black;
+	margin-left: 500px;
+	margin-right: 70px;
+}
+
+.nuText
+{
+	position: relative;
+	font-family: Ubuntu-Italic;
+	color: black;
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+.nuTextt
+{
+	position: static;
+	font-family: Ubuntu-Italic;
+	color: black;
+	font-size: 20px;
+	margin-left: 500px;
+}
+
+
+.exwatermelon
+{
+	display: block;
+	background-color: #B8F9A2;
+	border: 10px solid;
+	border-color: #62EE32 #94FF6F #94FF6F #62EE32;
+	padding: 10px;
+}
+
+.exblueberry
+{
+	display: block;
+	background-color: #95DFF3;
+	border: 10px solid;
+	border-color: #0087FF #6BB9FF #6BB9FF #0087FF;
+	padding: 10px;
+}
+
+.exgrape
+{
+	display: block;
+	background-color: #DCD6FF;
+	border: 10px solid;
+	border-color: #9988FF #C6B7F1 #C6B7F1 #9988FF;
+	padding: 10px;
+}
+
+.expeach
+{
+	display: block;
+	background-color: #FFD0D0;
+	border: 10px solid;
+	border-color: #FF7373 #FFA0A0 #FFA0A0 #FF7373;
+	padding: 10px;
+}
+
+.shopnow
+{
+	display: block;
+	background-color: #FFEDED;
+	border: 10px solid;
+	border-color: #FFEDED;
+	padding: 100px;
+	font-family: Ubuntu-Bold;
+}
+
+#buynow
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+p
+{
+	font-family: Ubuntu-Bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.shopbut:link, .shopbut:visited
+{
+	background-color: #0072CE;
+	color: white;
+	padding: 50px 70px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Ubuntu-Bold;
+	font-size: 30px;
+}
+
+.shopbut:hover, .shopbut:active
+{
+	background-color:#000000;
+	cursor: pointer;
+}
+
+.shopbutt:link, .shopbutt:visited
+{
+	background-color: #D81E05;
+	color: white;
+	padding: 50px 70px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Ubuntu-Bold;
+	font-size: 30px;
+}
+
+.shopbutt:hover, .shopbutt:active
+{
+	background-color:#000000;
+	cursor: pointer;
+}
+
+.shopbuttt:link, .shopbuttt:visited
+{
+	background-color: #007852;
+	color: white;
+	padding: 50px 70px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Ubuntu-Bold;
+	font-size: 30px;
+}
+
+.shopbuttt:hover, .shopbuttt:active
+{
+	background-color:#000000;
+	cursor: pointer;
+}
+
+.shopbutttt:link, .shopbutttt:visited
+{
+	background-color: #78AE60;
+	color: white;
+	padding: 50px 70px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Ubuntu-Bold;
+	font-size: 30px;
+}
+
+.shopbutttt:hover, .shopbutttt:active
+{
+	background-color:#000000;
+	cursor: pointer;
+}
+
+footer
+{
+	position: relative;
+	padding: 10px;
+	background-color: #AAAAAA;
+	color: black;
+	font-family: Ubuntu-Regular;
+	font-size: 20px;
+}
+
+.esther
+{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 500px;
+}
+
+#ins
+{
+	width: 10%;
+	float: right;
+}
+
+#wechat
+{
+	width: 10%;
+	float: right;
+}
+
+#insCAP
+{
+	position: relative;
+	font-family: Ubuntu-LightItalic;
+	font-size: 20px;
+}
+
+#wcCAP
+{
+	font-family: Ubuntu-LightItalic;
+	font-size: 20px;
+	position: relative;
+}
+
+
+#hhr
+{
+	border-top: 3px solid black;
+}
+
+#logoo
+{
+	border-radius: 50%;
+	width: 50px;
+	text-align: right;
+}
